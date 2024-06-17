@@ -1,0 +1,112 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section styles */
+#hero {
+  background-color: #0e0d0d;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+
+/* Image styles */
+.hero-content img {
+  display: block; /* Ensures the image behaves as a block element */
+  margin: 0 auto; /* Centers the image horizontally within its container */
+  border-radius: 50%; /* Applies a rounded border to make the image circular */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Skills Section styles */
+#skills {
+  background-color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.skills {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skills h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills ol {
+  list-style-type: none;
+}
+
+.skills ol li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style: none;
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
